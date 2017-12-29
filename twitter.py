@@ -1,10 +1,7 @@
 import os
 import re
 import sys
-import csv
 import tweepy
-import matplotlib.pyplot as plt
-from collections import Counter
 from textblob import TextBlob
 
 class TwitterClient(object):
