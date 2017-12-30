@@ -20,7 +20,7 @@ class TwitterClient(object):
             self.auth.set_access_token(access_token, access_token_secret)
             self.query = query
             self.api = tweepy.API(self.auth)
-            self.tweet_count_max = 100  # To prevent Rate Limiting
+            self.tweet_count_max = 100 #To prevent Rate Limiting
         except:
             print("Error: Authentication Failed")        
 
